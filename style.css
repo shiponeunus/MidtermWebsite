@@ -1,0 +1,61 @@
+body{
+  font-weight: bold;
+  font-family: "Helvetica Neue",Helvetica;
+  background-color: black;
+  color: white;
+}
+.site{
+  display: grid;
+grid-template-rows: 18% 20% 20% 20% 20%;
+  grid-template-columns: 10% 20% 20% 20% 20%;
+
+
+}
+.sitepage2{
+  display: grid;
+grid-template-rows: 25% 20% 20% 20% 20%;
+  grid-template-columns: 10% 20% 20% 20% 20%;
+}
+.installation{
+  grid-area: 2 /1 /5 /4;
+  background-color: white;
+}
+.topleft{
+
+}
+.logo{
+  grid-area: 1 / 1 / 2 / 2;
+}
+
+.img{
+  width: 100%;
+}
+a, a:visited {
+  color: #fff;
+  text-decoration: none;
+}
+.navBar{
+    display: flex;
+      width: 50vh;
+      justify-content: space-around;
+      flex-direction: row;
+      margin-left: 10vmin;
+      grid-area: 1 / 5 / 2 / 5;
+}
+
+.nav{
+  font-size: 1em;
+}
+.ethos{
+  grid-area: 2 / 1 / 4 / 6;
+  /* background-color: white; */
+}
+h1{
+  width:80vmin;
+  font-size: 3em;
+  color: cyan;
+}
+.firstproject{
+  grid-area: 4/ 1/5/3;
+    background-color: white;
+}
